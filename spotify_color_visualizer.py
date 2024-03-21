@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-client_id = "deebc7cb2e0e42728c94e8fb04657733"
-client_secret = "3f4ba18d893f428da744780076935db5"
+client_id = "CLIENT_ID"
+client_secret = "CLIENT_SECRET"
 
 def get_access_token():
     url = "https://accounts.spotify.com/api/token"
